@@ -7,3 +7,23 @@ body {
     font-family: 'Syne', sans-serif;
 }
 
+
+
+.form-button-contact input[type="submit"] {
+    display: block; /* Rend le bouton en bloc pour pouvoir le centrer */
+    margin: 0 auto; /* Centre horizontalement le bouton */
+    background-color: #E0B9B4; /* Change la couleur de fond */
+    color: #ffffff; /* Change la couleur du texte */
+    width: 198px;
+    height: 55px;
+    border: none; /* Supprime les bordures */
+    padding: 10px 20px; /* Ajuste les marges internes */
+    font-size: 16px; /* Ajuste la taille de la police */
+    cursor: pointer; /* Ajoute le curseur pointer au survol */
+    border-radius: 5px; /* Ajoute des bords arrondis */
+    transition: background-color 0.3s ease; /* Ajoute une transition fluide */
+}
+
+.form-button-contact input[type="submit"]:hover {
+    background-color: #45a049; /* Change la couleur au survol */
+}
