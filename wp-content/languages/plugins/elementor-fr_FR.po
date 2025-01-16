@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More Than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-01-02 22:39:16+0000\n"
+"PO-Revision-Date: 2025-01-16 10:35:37+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,7 +31,7 @@ msgstr "Unifier avec l’IA d’Elementor"
 msgid "Floating Bar CTA"
 msgstr "Barre CTA flottante"
 
-#: modules/floating-buttons/module.php:47 assets/js/editor.js:49808
+#: modules/floating-buttons/module.php:47 assets/js/editor.js:49812
 msgid "Floating Bars"
 msgstr "Barres flottantes"
 
@@ -382,8 +382,8 @@ msgid "Call now"
 msgstr "Appeler maintenant"
 
 #: modules/floating-buttons/module.php:46
-#: modules/floating-buttons/module.php:55 assets/js/editor.js:49810
-#: assets/js/editor.js:49812
+#: modules/floating-buttons/module.php:55 assets/js/editor.js:49814
+#: assets/js/editor.js:49816
 msgid "Floating Buttons"
 msgstr "Boutons flottants"
 
@@ -1246,15 +1246,15 @@ msgstr "Ne plus afficher."
 
 #: includes/managers/controls.php:1312
 #: modules/floating-buttons/base/widget-floating-bars-base.php:1449
-#: assets/js/editor.js:51825
+#: assets/js/editor.js:51829
 msgid "Sticky"
 msgstr "Épinglé"
 
-#: includes/managers/controls.php:1303 assets/js/editor.js:51810
+#: includes/managers/controls.php:1303 assets/js/editor.js:51814
 msgid "Mouse Effects"
 msgstr "Effet de souris"
 
-#: includes/managers/controls.php:1294 assets/js/editor.js:51795
+#: includes/managers/controls.php:1294 assets/js/editor.js:51799
 msgid "Scrolling Effects"
 msgstr "Effets de défilement"
 
@@ -1309,7 +1309,7 @@ msgstr "Vous n’avez pas le droit d’accéder à ce modèle."
 msgid "Invalid template type or template does not exist."
 msgstr "Type de modèle non valide ou le modèle n’existe pas"
 
-#: includes/managers/controls.php:1263 assets/js/editor.js:51780
+#: includes/managers/controls.php:1263 assets/js/editor.js:51784
 msgid "Display Conditions"
 msgstr "Conditions d’affichage"
 
@@ -2327,8 +2327,8 @@ msgstr "Notes"
 #: modules/promotions/promotion-data.php:116 assets/js/app-packages.js:2413
 #: assets/js/app-packages.js:5590 assets/js/app-packages.js:5856
 #: assets/js/app.js:2727 assets/js/checklist.js:298 assets/js/editor.js:8255
-#: assets/js/editor.js:51785 assets/js/editor.js:51800
-#: assets/js/editor.js:51815 assets/js/editor.js:51830
+#: assets/js/editor.js:51789 assets/js/editor.js:51804
+#: assets/js/editor.js:51819 assets/js/editor.js:51834
 #: assets/js/onboarding.120a44527e5a7209a8e4.bundle.js:513
 #: assets/js/onboarding.120a44527e5a7209a8e4.bundle.js:1461
 msgid "Upgrade Now"
@@ -2401,17 +2401,17 @@ msgstr "Pour atteindre la pleine hauteur du conteneur, utilisez %s."
 msgid "Container"
 msgstr "Conteneur"
 
-#: includes/elements/column.php:418 includes/elements/section.php:716
+#: includes/elements/column.php:441 includes/elements/section.php:716
 #: includes/widgets/heading.php:324
 msgid "Hue"
 msgstr "Teinte"
 
-#: includes/elements/column.php:417 includes/elements/section.php:715
+#: includes/elements/column.php:440 includes/elements/section.php:715
 #: includes/widgets/heading.php:323
 msgid "Exclusion"
 msgstr "Exclusion"
 
-#: includes/elements/column.php:416 includes/elements/section.php:714
+#: includes/elements/column.php:439 includes/elements/section.php:714
 #: includes/widgets/heading.php:322
 msgid "Difference"
 msgstr "Différence"
@@ -2685,42 +2685,42 @@ msgstr "Les transitions de page permettent de styliser les animations d’entré
 msgid "Select one or go ahead and %1$screate one%2$s now."
 msgstr "Sélectionnez-en un ou %1$scréez-en un%2$s maintenant."
 
-#: includes/elements/column.php:419 includes/elements/container.php:840
+#: includes/elements/column.php:442 includes/elements/container.php:840
 #: includes/elements/section.php:713 includes/widgets/heading.php:325
 msgid "Luminosity"
 msgstr "Luminosité"
 
-#: includes/elements/column.php:414 includes/elements/container.php:838
+#: includes/elements/column.php:437 includes/elements/container.php:838
 #: includes/elements/section.php:711 includes/widgets/heading.php:320
 msgid "Saturation"
 msgstr "Saturation"
 
-#: includes/elements/column.php:413 includes/elements/container.php:837
+#: includes/elements/column.php:436 includes/elements/container.php:837
 #: includes/elements/section.php:710 includes/widgets/heading.php:319
 msgid "Color Dodge"
 msgstr "Densité de la couleur"
 
-#: includes/elements/column.php:412 includes/elements/container.php:836
+#: includes/elements/column.php:435 includes/elements/container.php:836
 #: includes/elements/section.php:709 includes/widgets/heading.php:318
 msgid "Lighten"
 msgstr "Éclaircir"
 
-#: includes/elements/column.php:411 includes/elements/container.php:835
+#: includes/elements/column.php:434 includes/elements/container.php:835
 #: includes/elements/section.php:708 includes/widgets/heading.php:317
 msgid "Darken"
 msgstr "Assombrir"
 
-#: includes/elements/column.php:410 includes/elements/container.php:834
+#: includes/elements/column.php:433 includes/elements/container.php:834
 #: includes/elements/section.php:707 includes/widgets/heading.php:316
 msgid "Overlay"
 msgstr "Superposition"
 
-#: includes/elements/column.php:409 includes/elements/container.php:833
+#: includes/elements/column.php:432 includes/elements/container.php:833
 #: includes/elements/section.php:706 includes/widgets/heading.php:315
 msgid "Screen"
 msgstr "Écran"
 
-#: includes/elements/column.php:408 includes/elements/container.php:832
+#: includes/elements/column.php:431 includes/elements/container.php:832
 #: includes/elements/section.php:705 includes/widgets/heading.php:314
 msgid "Multiply"
 msgstr "Multiplier"
@@ -3447,7 +3447,7 @@ msgstr "Ajoute un nouveau type de contenu Elementor qui autorise la création in
 #: modules/landing-pages/documents/landing-page.php:54
 #: modules/landing-pages/module.php:47 modules/landing-pages/module.php:138
 #: modules/landing-pages/module.php:269 modules/landing-pages/module.php:281
-#: assets/js/app.js:10352 assets/js/editor.js:51544
+#: assets/js/app.js:10352 assets/js/editor.js:51548
 msgid "Landing Pages"
 msgstr "Page d’atterrissage"
 
@@ -3513,7 +3513,7 @@ msgstr "Le constructeur de sites web Elementor a tout pour plaire : constructeu
 
 #: core/kits/documents/tabs/global-colors.php:24
 #: core/kits/documents/tabs/global-colors.php:43 assets/js/app.js:10360
-#: assets/js/editor.js:46391 assets/js/f75dc05bac1a6892309b.bundle.js:173
+#: assets/js/editor.js:46395 assets/js/f75dc05bac1a6892309b.bundle.js:173
 msgid "Global Colors"
 msgstr "Couleurs globales"
 
@@ -3574,18 +3574,18 @@ msgid "User Preferences"
 msgstr "Préférences de compte"
 
 #: core/kits/manager.php:436 includes/editor-templates/hotkeys.php:115
-#: assets/js/app.js:10358 assets/js/app.js:10838 assets/js/editor.js:46340
-#: assets/js/editor.js:46344 assets/js/editor.js:46354
+#: assets/js/app.js:10358 assets/js/app.js:10838 assets/js/editor.js:46344
+#: assets/js/editor.js:46348 assets/js/editor.js:46358
 #: assets/js/packages/editor-app-bar/editor-app-bar.js:12
 #: assets/js/packages/editor-app-bar/editor-app-bar.strings.js:9
 msgid "Site Settings"
 msgstr "Réglages du site"
 
-#: modules/nested-tabs/widgets/nested-tabs.php:371 assets/js/editor.js:46750
+#: modules/nested-tabs/widgets/nested-tabs.php:371 assets/js/editor.js:46754
 msgid "Additional Settings"
 msgstr "Réglages supplémentaires"
 
-#: core/settings/editor-preferences/model.php:197 assets/js/editor.js:46758
+#: core/settings/editor-preferences/model.php:197 assets/js/editor.js:46762
 msgid "Design System"
 msgstr "Système de conception"
 
@@ -3789,7 +3789,7 @@ msgstr "Le widget %s"
 #: assets/js/ai-admin.js:8872 assets/js/ai-gutenberg.js:10720
 #: assets/js/ai-media-library.js:10501
 #: assets/js/ai-unify-product-images.js:10501 assets/js/ai.js:11902
-#: assets/js/app.js:7176 assets/js/editor.js:46646
+#: assets/js/app.js:7176 assets/js/editor.js:46650
 msgid "Back"
 msgstr "Retour"
 
@@ -4146,7 +4146,7 @@ msgid "Template not exist."
 msgstr "Le modèle n’existe pas."
 
 #. translators: 1: Link open tag, 2: Link close tag.
-#: includes/elements/column.php:891 includes/elements/container.php:1773
+#: includes/elements/column.php:914 includes/elements/container.php:1773
 #: includes/elements/section.php:1393 includes/widgets/common-base.php:1132
 msgid "Responsive visibility will take effect only on %1$s preview mode %2$s or live page, and not while editing in Elementor."
 msgstr "La visibilité responsive prendra effet uniquement sur %1$s le mode prévisualisation %2$s ou la page en ligne, et non lors de la modification avec Elementor."
@@ -4301,7 +4301,7 @@ msgstr "Masqué"
 msgid "Overflow"
 msgstr "Débordement"
 
-#: includes/elements/column.php:826 includes/elements/container.php:1693
+#: includes/elements/column.php:849 includes/elements/container.php:1693
 #: includes/elements/section.php:1302 includes/widgets/common-base.php:622
 msgid "Motion Effects"
 msgstr "Effets de mouvement"
@@ -4435,7 +4435,7 @@ msgstr "Fenêtres surgissantes"
 #: app/modules/site-editor/module.php:31
 #: core/common/modules/finder/categories/general.php:72
 #: includes/template-library/sources/local.php:1719
-#: assets/js/app-packages.js:5890 assets/js/editor.js:46365
+#: assets/js/app-packages.js:5890 assets/js/editor.js:46369
 #: assets/js/packages/editor-app-bar/editor-app-bar.js:12
 #: assets/js/packages/editor-app-bar/editor-app-bar.strings.js:7
 msgid "Theme Builder"
@@ -4620,7 +4620,7 @@ msgid "Homepage"
 msgstr "Page d’accueil"
 
 #: core/common/modules/finder/categories/create.php:27
-#: assets/js/editor.js:44963
+#: assets/js/editor.js:44967
 msgid "Create"
 msgstr "Créer"
 
@@ -4843,7 +4843,7 @@ msgstr "Site"
 msgid "Pro"
 msgstr "Pro"
 
-#: includes/elements/column.php:404 includes/elements/container.php:828
+#: includes/elements/column.php:427 includes/elements/container.php:828
 #: includes/elements/section.php:701 includes/widgets/heading.php:310
 msgid "Blend Mode"
 msgstr "Mode de fusion"
@@ -4924,7 +4924,7 @@ msgstr "Ajouter un %s"
 
 #: core/kits/documents/tabs/theme-style-images.php:95
 #: core/kits/documents/tabs/theme-style-images.php:166
-#: includes/elements/column.php:373 includes/elements/column.php:447
+#: includes/elements/column.php:396 includes/elements/column.php:470
 #: includes/elements/container.php:782 includes/elements/container.php:896
 #: includes/elements/section.php:655 includes/elements/section.php:759
 #: includes/widgets/image-box.php:429 includes/widgets/image-box.php:464
@@ -5317,7 +5317,7 @@ msgstr "Retirer"
 
 #: includes/editor-templates/hotkeys.php:73
 #: includes/editor-templates/repeater.php:18 assets/js/editor.js:29966
-#: assets/js/editor.js:50248
+#: assets/js/editor.js:50252
 #: assets/js/packages/editor-site-navigation/editor-site-navigation.js:2
 #: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:20
 msgid "Duplicate"
@@ -5533,13 +5533,13 @@ msgid "Switch to Revisions tab for older versions"
 msgstr "Basculer sur l’onglet Révisions pour les anciennes versions"
 
 #: modules/history/views/history-panel-template.php:10
-#: assets/js/editor.js:49981
+#: assets/js/editor.js:49985
 msgid "Revisions"
 msgstr "Révisions"
 
 #: includes/editor-templates/hotkeys.php:19
 #: includes/editor-templates/templates.php:126
-#: modules/history/views/history-panel-template.php:9 assets/js/editor.js:49978
+#: modules/history/views/history-panel-template.php:9 assets/js/editor.js:49982
 msgid "Actions"
 msgstr "Actions"
 
@@ -5547,7 +5547,7 @@ msgstr "Actions"
 #: includes/editor-templates/panel.php:96 assets/js/ai-admin.js:1950
 #: assets/js/ai-gutenberg.js:3718 assets/js/ai-media-library.js:3579
 #: assets/js/ai-unify-product-images.js:3579 assets/js/ai.js:4354
-#: assets/js/editor.js:50570
+#: assets/js/editor.js:50574
 #: assets/js/packages/editor-app-bar/editor-app-bar.js:12
 #: assets/js/packages/editor-app-bar/editor-app-bar.strings.js:17
 msgid "History"
@@ -5633,14 +5633,14 @@ msgstr "Définit l’espace par défaut entre les widgets (par défaut : 20px)"
 msgid "Rollback to Previous Version"
 msgstr "Rétrograder à la version précédente"
 
-#: includes/elements/column.php:863 includes/elements/container.php:1730
+#: includes/elements/column.php:886 includes/elements/container.php:1730
 #: includes/elements/section.php:1339 includes/widgets/common-base.php:659
 #: modules/floating-buttons/base/widget-contact-button-base.php:1414
 #: modules/floating-buttons/base/widget-floating-bars-base.php:912
 msgid "Animation Delay"
 msgstr "Délai d’animation"
 
-#: includes/elements/column.php:754 includes/elements/container.php:1634
+#: includes/elements/column.php:777 includes/elements/container.php:1634
 #: includes/elements/section.php:1250 includes/widgets/common-base.php:565
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.js:10
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.strings.js:82
@@ -5650,8 +5650,8 @@ msgstr "Index-Z"
 #: core/kits/documents/tabs/theme-style-form-fields.php:137
 #: core/kits/documents/tabs/theme-style-images.php:203
 #: includes/base/element-base.php:1253
-#: includes/controls/groups/background.php:673 includes/elements/column.php:318
-#: includes/elements/column.php:478 includes/elements/column.php:586
+#: includes/controls/groups/background.php:673 includes/elements/column.php:341
+#: includes/elements/column.php:501 includes/elements/column.php:609
 #: includes/elements/container.php:705 includes/elements/container.php:919
 #: includes/elements/container.php:1079 includes/elements/section.php:603
 #: includes/elements/section.php:790 includes/elements/section.php:897
@@ -5834,7 +5834,7 @@ msgid "Coming Soon"
 msgstr "Arrive bientôt"
 
 #: core/kits/documents/kit.php:155 includes/maintenance-mode.php:215
-#: assets/js/editor.js:50247
+#: assets/js/editor.js:50251
 msgid "Disabled"
 msgstr "Désactivé"
 
@@ -5986,8 +5986,8 @@ msgstr "Largeur de navigation"
 #: core/kits/documents/tabs/theme-style-buttons.php:166
 #: core/kits/documents/tabs/theme-style-images.php:134
 #: core/kits/documents/tabs/theme-style-typography.php:149
-#: includes/base/element-base.php:872 includes/elements/column.php:303
-#: includes/elements/column.php:432 includes/elements/column.php:551
+#: includes/base/element-base.php:872 includes/elements/column.php:326
+#: includes/elements/column.php:455 includes/elements/column.php:574
 #: includes/elements/container.php:690 includes/elements/container.php:871
 #: includes/elements/container.php:1032 includes/elements/section.php:588
 #: includes/elements/section.php:744 includes/elements/section.php:862
@@ -6013,7 +6013,7 @@ msgstr "Largeur de navigation"
 msgid "Hover"
 msgstr "Au survol"
 
-#: includes/elements/column.php:775 includes/elements/container.php:1655
+#: includes/elements/column.php:798 includes/elements/container.php:1655
 #: includes/elements/section.php:1271 includes/widgets/common-base.php:585
 #: includes/widgets/traits/button-trait.php:214
 #: modules/floating-buttons/base/widget-contact-button-base.php:3096
@@ -6023,7 +6023,7 @@ msgstr "Au survol"
 msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
 msgstr "Ajouter votre id personnalisé sans la touche carré. par exemple : mon-id"
 
-#: includes/elements/column.php:766 includes/elements/container.php:1646
+#: includes/elements/column.php:789 includes/elements/container.php:1646
 #: includes/elements/section.php:1262 includes/widgets/common-base.php:576
 #: modules/floating-buttons/base/widget-contact-button-base.php:3087
 #: modules/floating-buttons/base/widget-floating-bars-base.php:1492
@@ -6349,7 +6349,7 @@ msgstr "Bibliothèque"
 #: assets/js/app-packages.js:3994 assets/js/app-packages.js:4513
 #: assets/js/app.js:2216 assets/js/app.js:4329 assets/js/app.js:4732
 #: assets/js/app.js:6840 assets/js/app.js:7671 assets/js/app.js:11222
-#: assets/js/editor.js:46649 assets/js/import-export-admin.js:313
+#: assets/js/editor.js:46653 assets/js/import-export-admin.js:313
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.js:10
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.strings.js:5
 msgid "Close"
@@ -6391,7 +6391,7 @@ msgstr "En savoir plus"
 
 #: core/kits/documents/tabs/global-typography.php:28
 #: core/kits/documents/tabs/global-typography.php:47 assets/js/app.js:10360
-#: assets/js/editor.js:46400 assets/js/f75dc05bac1a6892309b.bundle.js:222
+#: assets/js/editor.js:46404 assets/js/f75dc05bac1a6892309b.bundle.js:222
 msgid "Global Fonts"
 msgstr "Polices globales"
 
@@ -6412,7 +6412,7 @@ msgstr "Animation de survol"
 msgid "Animation"
 msgstr "Animation"
 
-#: includes/elements/column.php:851 includes/elements/container.php:1718
+#: includes/elements/column.php:874 includes/elements/container.php:1718
 #: includes/elements/section.php:1327 includes/widgets/common-base.php:647
 #: modules/floating-buttons/base/widget-contact-button-base.php:1405
 #: modules/floating-buttons/base/widget-contact-button-base.php:2788
@@ -6420,7 +6420,7 @@ msgstr "Animation"
 msgid "Fast"
 msgstr "Rapide"
 
-#: includes/elements/column.php:849 includes/elements/container.php:1716
+#: includes/elements/column.php:872 includes/elements/container.php:1716
 #: includes/elements/section.php:1325 includes/widgets/common-base.php:645
 #: modules/floating-buttons/base/widget-contact-button-base.php:1403
 #: modules/floating-buttons/base/widget-contact-button-base.php:2786
@@ -6432,7 +6432,7 @@ msgstr "Lent"
 msgid "Disable Default Colors"
 msgstr "Désactiver les couleurs par défaut"
 
-#: includes/elements/column.php:836 includes/elements/container.php:1703
+#: includes/elements/column.php:859 includes/elements/container.php:1703
 #: includes/elements/section.php:1312 includes/widgets/common-base.php:632
 #: includes/widgets/video.php:917
 #: modules/floating-buttons/base/widget-contact-button-base.php:1389
@@ -6548,7 +6548,7 @@ msgstr "Lecteur visuel"
 msgid "SoundCloud"
 msgstr "SoundCloud"
 
-#: includes/elements/column.php:345 includes/elements/container.php:744
+#: includes/elements/column.php:368 includes/elements/container.php:744
 #: includes/elements/section.php:630
 #: modules/floating-buttons/base/widget-floating-bars-base.php:977
 #: modules/link-in-bio/base/widget-link-in-bio-base.php:1480
@@ -6589,7 +6589,7 @@ msgstr "Veuillez partager quelle extension"
 
 #: core/admin/feedback.php:93
 msgid "I found a better plugin"
-msgstr "J’ai trouvé un meilleure extension"
+msgstr "J’ai trouvé une meilleure extension"
 
 #: core/admin/feedback.php:89
 msgid "I no longer need the plugin"
@@ -6710,7 +6710,7 @@ msgstr "Étirer l’image"
 msgid "Image Carousel"
 msgstr "Carrousel d’images"
 
-#: includes/elements/column.php:845 includes/elements/container.php:1712
+#: includes/elements/column.php:868 includes/elements/container.php:1712
 #: includes/elements/section.php:1321 includes/widgets/common-base.php:641
 #: includes/widgets/counter.php:188
 #: modules/floating-buttons/base/widget-contact-button-base.php:1399
@@ -6817,7 +6817,7 @@ msgstr "Balise HTML de titre"
 msgid "This is the heading"
 msgstr "Ceci est le titre"
 
-#: includes/elements/column.php:794 includes/elements/container.php:1674
+#: includes/elements/column.php:817 includes/elements/container.php:1674
 #: includes/elements/section.php:1290 includes/widgets/common-base.php:603
 #: modules/floating-buttons/base/widget-contact-button-base.php:3113
 #: modules/floating-buttons/base/widget-floating-bars-base.php:1518
@@ -6846,7 +6846,7 @@ msgstr "Éléments"
 #: includes/managers/controls.php:334
 #: includes/settings/admin-menu-items/admin-menu-item.php:28
 #: includes/settings/settings.php:216 modules/usage/settings-reporter.php:13
-#: assets/js/editor.js:9539 assets/js/editor.js:37472 assets/js/editor.js:46766
+#: assets/js/editor.js:9539 assets/js/editor.js:37472 assets/js/editor.js:46770
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.js:10
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.strings.js:16
 msgid "Settings"
@@ -7275,7 +7275,7 @@ msgstr "Écart"
 #: core/kits/documents/tabs/theme-style-typography.php:201
 #: includes/controls/box-shadow.php:104
 #: includes/controls/groups/background.php:170
-#: includes/controls/text-shadow.php:97 includes/elements/column.php:415
+#: includes/controls/text-shadow.php:97 includes/elements/column.php:438
 #: includes/elements/container.php:839 includes/elements/container.php:1203
 #: includes/elements/section.php:712 includes/elements/section.php:1000
 #: includes/widgets/accordion.php:337 includes/widgets/accordion.php:439
@@ -7317,8 +7317,8 @@ msgstr "Écart"
 #: modules/shapes/widgets/text-path.php:509
 #: modules/shapes/widgets/text-path.php:529
 #: modules/shapes/widgets/text-path.php:580
-#: modules/shapes/widgets/text-path.php:600 assets/js/editor.js:46904
-#: assets/js/editor.js:46947
+#: modules/shapes/widgets/text-path.php:600 assets/js/editor.js:46908
+#: assets/js/editor.js:46951
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.js:8
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.js:10
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.strings.js:29
@@ -7408,7 +7408,7 @@ msgid "Image"
 msgstr "Image"
 
 #: core/base/traits/shared-widget-controls-trait.php:156
-#: includes/elements/column.php:504 includes/elements/container.php:963
+#: includes/elements/column.php:527 includes/elements/container.php:963
 #: includes/elements/section.php:817 includes/widgets/common-base.php:758
 #: modules/floating-buttons/base/widget-floating-bars-base.php:757
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.js:10
@@ -7488,7 +7488,7 @@ msgstr "Icône"
 msgid "Size"
 msgstr "Taille"
 
-#: includes/elements/column.php:704 includes/elements/section.php:1195
+#: includes/elements/column.php:727 includes/elements/section.php:1195
 #: includes/widgets/heading.php:268 includes/widgets/icon-box.php:309
 #: includes/widgets/image-box.php:284 includes/widgets/image-carousel.php:835
 #: includes/widgets/image-gallery.php:364 includes/widgets/image.php:593
@@ -7575,7 +7575,7 @@ msgstr "Modifier"
 #: core/kits/documents/tabs/theme-style-form-fields.php:233
 #: core/kits/documents/tabs/theme-style-images.php:83
 #: core/kits/documents/tabs/theme-style-images.php:154
-#: includes/elements/column.php:529 includes/elements/column.php:566
+#: includes/elements/column.php:552 includes/elements/column.php:589
 #: includes/elements/container.php:1008 includes/elements/container.php:1059
 #: includes/elements/section.php:841 includes/elements/section.php:877
 #: includes/widgets/common-base.php:783 includes/widgets/common-base.php:820
@@ -8111,7 +8111,7 @@ msgstr "Mise en page"
 msgid "Column Width"
 msgstr "Largeur de colonne"
 
-#: includes/elements/column.php:784 includes/elements/container.php:1664
+#: includes/elements/column.php:807 includes/elements/container.php:1664
 #: includes/elements/section.php:1280 includes/widgets/common-base.php:594
 #: modules/floating-buttons/base/widget-contact-button-base.php:3104
 #: modules/floating-buttons/base/widget-floating-bars-base.php:1509
@@ -8121,7 +8121,7 @@ msgstr "Classes CSS"
 #: core/document-types/page-base.php:144
 #: core/kits/documents/tabs/theme-style-buttons.php:243
 #: core/kits/documents/tabs/theme-style-form-fields.php:159
-#: includes/elements/column.php:742 includes/elements/container.php:1366
+#: includes/elements/column.php:765 includes/elements/container.php:1366
 #: includes/elements/section.php:1238 includes/widgets/accordion.php:394
 #: includes/widgets/accordion.php:541 includes/widgets/common-base.php:212
 #: includes/widgets/divider.php:870 includes/widgets/icon-box.php:499
@@ -8145,7 +8145,7 @@ msgstr "Classes CSS"
 msgid "Padding"
 msgstr "Marge interne"
 
-#: core/document-types/page-base.php:132 includes/elements/column.php:729
+#: core/document-types/page-base.php:132 includes/elements/column.php:752
 #: includes/elements/container.php:1354 includes/elements/section.php:1219
 #: includes/widgets/common-base.php:200
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.js:10
@@ -8159,7 +8159,7 @@ msgstr "Marge"
 #: includes/controls/groups/flex-item.php:59
 #: includes/controls/groups/grid-container.php:139
 #: includes/controls/groups/grid-container.php:167
-#: includes/elements/column.php:216 includes/elements/column.php:696
+#: includes/elements/column.php:216 includes/elements/column.php:719
 #: includes/elements/section.php:1187 includes/widgets/common-base.php:314
 #: includes/widgets/counter.php:322 includes/widgets/counter.php:396
 #: includes/widgets/counter.php:432 includes/widgets/divider.php:478
@@ -8189,19 +8189,19 @@ msgstr "Marge"
 msgid "Center"
 msgstr "Centré"
 
-#: includes/elements/column.php:688 includes/elements/section.php:1179
+#: includes/elements/column.php:711 includes/elements/section.php:1179
 msgid "Text Align"
 msgstr "Alignement du texte"
 
-#: includes/elements/column.php:676 includes/elements/section.php:1167
+#: includes/elements/column.php:699 includes/elements/section.php:1167
 msgid "Link Hover Color"
 msgstr "Couleur du lien au survol"
 
-#: includes/elements/column.php:664 includes/elements/section.php:1155
+#: includes/elements/column.php:687 includes/elements/section.php:1155
 msgid "Link Color"
 msgstr "Couleur du lien"
 
-#: includes/elements/column.php:640 includes/elements/section.php:1131
+#: includes/elements/column.php:663 includes/elements/section.php:1131
 msgid "Heading Color"
 msgstr "Couleur du titre"
 
@@ -8210,7 +8210,7 @@ msgstr "Couleur du titre"
 #: core/kits/documents/tabs/theme-style-buttons.php:173
 #: core/kits/documents/tabs/theme-style-form-fields.php:176
 #: core/kits/documents/tabs/theme-style-typography.php:56
-#: includes/elements/column.php:652 includes/elements/section.php:1143
+#: includes/elements/column.php:675 includes/elements/section.php:1143
 #: includes/widgets/alert.php:270 includes/widgets/alert.php:310
 #: includes/widgets/counter.php:499 includes/widgets/counter.php:553
 #: includes/widgets/heading.php:355 includes/widgets/heading.php:381
@@ -8246,7 +8246,7 @@ msgstr "Couleur du texte"
 
 #: core/kits/documents/tabs/theme-style-typography.php:19
 #: core/kits/documents/tabs/theme-style-typography.php:38
-#: includes/controls/groups/typography.php:436 includes/elements/column.php:631
+#: includes/controls/groups/typography.php:436 includes/elements/column.php:654
 #: includes/elements/section.php:1123 assets/js/editor-modules.js:1430
 #: assets/js/editor.js:42055
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.js:10
@@ -8279,7 +8279,7 @@ msgstr "Section"
 msgid "Structure"
 msgstr "Structure"
 
-#: includes/elements/column.php:881 includes/elements/container.php:1755
+#: includes/elements/column.php:904 includes/elements/container.php:1755
 #: includes/elements/section.php:1358 includes/managers/controls.php:332
 #: includes/widgets/common-base.php:1122
 #: modules/floating-buttons/base/widget-contact-button-base.php:3058
@@ -8288,7 +8288,7 @@ msgid "Responsive"
 msgstr "Responsive"
 
 #: core/common/modules/finder/categories/settings.php:59
-#: core/dynamic-tags/tag.php:88 includes/elements/column.php:720
+#: core/dynamic-tags/tag.php:88 includes/elements/column.php:743
 #: includes/elements/section.php:1211 includes/managers/controls.php:331
 #: includes/settings/settings.php:329 includes/settings/settings.php:332
 #: modules/floating-buttons/base/widget-contact-button-base.php:2918
@@ -8358,7 +8358,7 @@ msgid "Apply"
 msgstr "Appliquer"
 
 #: modules/history/views/revisions-panel-template.php:11
-#: assets/js/editor.js:44239
+#: assets/js/editor.js:44243
 msgid "Discard"
 msgstr "Jeter"
 
@@ -8380,7 +8380,7 @@ msgstr "Aperçu"
 #: includes/editor-templates/templates.php:21
 #: includes/editor-templates/templates.php:237
 #: includes/editor-templates/templates.php:248 assets/js/e-home-screen.js:246
-#: assets/js/editor.js:44238 assets/js/element-manager-admin.js:2423
+#: assets/js/editor.js:44242 assets/js/element-manager-admin.js:2423
 #: assets/js/kit-elements-defaults-editor.js:598
 msgid "Save"
 msgstr "Enregistrer"
@@ -8484,7 +8484,7 @@ msgstr "Ajouter un élément"
 #: includes/editor-templates/hotkeys.php:66
 #: includes/editor-templates/templates.php:187 assets/js/editor.js:10409
 #: assets/js/editor.js:27606 assets/js/editor.js:30058
-#: assets/js/editor.js:46957 assets/js/import-export-admin.js:272
+#: assets/js/editor.js:46961 assets/js/import-export-admin.js:272
 #: assets/js/packages/editor-site-navigation/editor-site-navigation.js:2
 #: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:21
 #: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:29
@@ -8516,7 +8516,7 @@ msgstr "Sélectionnez une icône"
 #: modules/floating-buttons/base/widget-contact-button-base.php:2615
 #: modules/floating-buttons/base/widget-contact-button-base.php:2684
 #: modules/floating-buttons/base/widget-contact-button-base.php:2815
-#: modules/shapes/module.php:52 assets/js/editor.js:44789
+#: modules/shapes/module.php:52 assets/js/editor.js:44793
 msgid "Custom"
 msgstr "Personnalisé"
 
@@ -8528,8 +8528,8 @@ msgstr "Personnalisé"
 #: includes/controls/groups/typography.php:152
 #: includes/controls/groups/typography.php:168
 #: includes/controls/groups/typography.php:178 includes/elements/column.php:280
-#: includes/elements/column.php:358 includes/elements/column.php:407
-#: includes/elements/column.php:514 includes/elements/column.php:850
+#: includes/elements/column.php:381 includes/elements/column.php:430
+#: includes/elements/column.php:537 includes/elements/column.php:873
 #: includes/elements/container.php:642 includes/elements/container.php:757
 #: includes/elements/container.php:831 includes/elements/container.php:976
 #: includes/elements/container.php:1717 includes/elements/section.php:543
@@ -8707,7 +8707,7 @@ msgid "Link"
 msgstr "Lien"
 
 #: includes/base/element-base.php:1311 includes/controls/dimensions.php:85
-#: includes/elements/column.php:692 includes/elements/container.php:1426
+#: includes/elements/column.php:715 includes/elements/container.php:1426
 #: includes/elements/section.php:1183 includes/widgets/common-base.php:360
 #: includes/widgets/common-base.php:361 includes/widgets/divider.php:474
 #: includes/widgets/divider.php:770 includes/widgets/divider.php:936
@@ -8752,7 +8752,7 @@ msgid "Bottom"
 msgstr "Bas"
 
 #: includes/base/element-base.php:1319 includes/controls/dimensions.php:83
-#: includes/elements/column.php:700 includes/elements/container.php:1427
+#: includes/elements/column.php:723 includes/elements/container.php:1427
 #: includes/elements/section.php:1191 includes/widgets/common-base.php:360
 #: includes/widgets/common-base.php:361 includes/widgets/divider.php:482
 #: includes/widgets/divider.php:778 includes/widgets/divider.php:944
@@ -8846,8 +8846,8 @@ msgstr "Haut"
 #: modules/floating-buttons/base/widget-contact-button-base.php:2814
 #: modules/link-in-bio/base/widget-link-in-bio-base.php:179
 #: modules/page-templates/module.php:299
-#: modules/shapes/widgets/text-path.php:204 assets/js/editor.js:44781
-#: assets/js/editor.js:44792
+#: modules/shapes/widgets/text-path.php:204 assets/js/editor.js:44785
+#: assets/js/editor.js:44796
 msgid "Default"
 msgstr "Par défaut"
 

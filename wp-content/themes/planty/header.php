@@ -56,15 +56,38 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 	);
 	?>
 >
-	<?php
+
+
+<?php
 	astra_header_before();
+?>
 
-	astra_header();
+<header id="custom-header">
+	<div class="bloc-header">
+		<div class="logo">
+			<a href="#">
+				<img src="/wp-content/uploads/2025/01/Logo.png" alt="Logo">
+			</a>
+		</div> 
+		<nav>
+			<?php
+				wp_nav_menu(array(
+						'theme_location' => 'menu-1',
+						'menu_class'     => 'menu-header',
+						'container'      => false,
+					)
+				);
+			?>
+		</nav>
+	</div>
+</header>
 
-	astra_header_after();
+<?php
+astra_header_after();
 
-	astra_content_before();
-	?>
+astra_content_before();
+?>
+
 	<div id="content" class="site-content">
 		<div class="ast-container">
 		<?php astra_content_top(); ?>
