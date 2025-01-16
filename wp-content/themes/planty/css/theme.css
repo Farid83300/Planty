@@ -34,10 +34,6 @@ header {
 
 }
 
-nav {
-
-
-}
 
 .menu-header {
     display: flex;
@@ -45,8 +41,8 @@ nav {
     justify-content: flex-end;
     justify-content: space-between;
     list-style: none !important;
+    font-size: 16px;
     width: 300px;
-    height: 40px;
     margin-top: 30px;
     margin-right: 50px;
 }
@@ -67,9 +63,11 @@ footer {
     background: #FFFFFF;
 }
 
-.mentions-legales {
+.menu-footer {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    list-style: none !important;
     font-size: 16px;
     color: #000000;
 }

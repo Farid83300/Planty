@@ -7,11 +7,12 @@ function theme_enqueue_styles()
     wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/css/theme.css', array(), filemtime(get_stylesheet_directory() . '/css/theme.css'));
 }
 
-function my_theme_register_menus() {
+function planty_register_menus() {
     register_nav_menus(
         array(
-            'menu-1' => __( 'Menu header', 'your-text-domain' ),
+            'menu-header' => __( 'Menu Header', 'planty' ),
+            'menu_footer' => __( 'Menu Footer', 'planty' ),
         )
     );
 }
-add_action( 'after_setup_theme', 'my_theme_register_menus' );
+add_action( 'after_setup_theme', 'planty_register_menus' );

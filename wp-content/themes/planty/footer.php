@@ -21,9 +21,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <footer>
 	<a href="#">
-		<div class="bloc-footer">
-			<p>Mentions légales</p>
-		</div>
+		<nav class="bloc-footer">
+			<?php
+				if ( has_nav_menu( 'menu_footer' ) ) {
+					wp_nav_menu( array(
+						'theme_location' => 'menu_footer',
+						'menu_class'     => 'menu-footer',
+						'container'      => 'nav',
+					));
+				}
+			?>
+		</nav>
 	</a>
 </footer>
 

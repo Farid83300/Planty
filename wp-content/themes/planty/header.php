@@ -71,12 +71,14 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 		</div> 
 		<nav>
 			<?php
+				if ( has_nav_menu( 'menu-header' ) ) {
 				wp_nav_menu(array(
-						'theme_location' => 'menu-1',
+						'theme_location' => 'menu-header',
 						'menu_class'     => 'menu-header',
-						'container'      => false,
+						'container'      => 'nav',
 					)
 				);
+			}
 			?>
 		</nav>
 	</div>
