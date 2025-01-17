@@ -27,7 +27,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					wp_nav_menu( array(
 						'theme_location' => 'menu_footer',
 						'menu_class'     => 'menu-footer',
-						'container'      => 'nav',
+						'container'      => 'div',
 					));
 				}
 			?>
@@ -40,5 +40,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	astra_body_bottom();    
 	wp_footer(); 
 ?>
+</div>
 	</body>
 </html>

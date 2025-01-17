@@ -36,6 +36,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 <?php astra_body_top(); ?>
 <?php wp_body_open(); ?>
 
+
 <a
 	class="skip-link screen-reader-text"
 	href="#content"
@@ -43,6 +44,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 		<?php echo esc_html( astra_default_strings( 'string-header-skip-link', false ) ); ?>
 </a>
 
+<div class="main-container>
 <div
 <?php
 	echo wp_kses_post(
@@ -65,7 +67,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 <header id="custom-header">
 	<div class="bloc-header">
 		<div class="logo">
-			<a href="#">
+			<a href="http://planty/">
 				<img src="/wp-content/uploads/2025/01/Logo.png" alt="Logo">
 			</a>
 		</div> 
