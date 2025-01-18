@@ -19,27 +19,25 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</div> <!-- ast-container -->
 	</div><!-- #content -->
 
-<footer>
-	<a href="#">
-		<nav class="bloc-footer">
-			<?php
-				if ( has_nav_menu( 'menu_footer' ) ) {
-					wp_nav_menu( array(
-						'theme_location' => 'menu_footer',
-						'menu_class'     => 'menu-footer',
-						'container'      => 'div',
-					));
-				}
-			?>
-		</nav>
-	</a>
-</footer>
+	<footer>
+		<a href="#">
+			<nav class="bloc-footer">
+				<?php
+					if ( has_nav_menu( 'menu_footer' ) ) {
+						wp_nav_menu( array(
+							'theme_location' => 'menu_footer',
+							'menu_class'     => 'menu-footer',
+						));
+					}
+				?>
+			</nav>
+		</a>
+	</footer>
 
 	</div><!-- #page -->
 <?php 
 	astra_body_bottom();    
 	wp_footer(); 
 ?>
-</div>
-	</body>
+</body>
 </html>

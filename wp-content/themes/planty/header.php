@@ -44,7 +44,6 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 		<?php echo esc_html( astra_default_strings( 'string-header-skip-link', false ) ); ?>
 </a>
 
-<div class="main-container>
 <div
 <?php
 	echo wp_kses_post(
@@ -64,7 +63,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 	astra_header_before();
 ?>
 
-<header id="custom-header">
+<header>
 	<div class="bloc-header">
 		<div class="logo">
 			<a href="http://planty/">
@@ -76,8 +75,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 				if ( has_nav_menu( 'menu-header' ) ) {
 				wp_nav_menu(array(
 						'theme_location' => 'menu-header',
-						'menu_class'     => 'menu-header',
-						'container'      => 'nav',
+						'menu_class'     => 'navbar',
 					)
 				);
 			}

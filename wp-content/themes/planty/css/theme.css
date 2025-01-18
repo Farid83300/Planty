@@ -7,14 +7,6 @@ body {
     font-family: 'Syne', sans-serif;
 }
 
-.main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-    width: 1440px;
-}
 
 header {
     display: flex;
@@ -44,16 +36,25 @@ header {
 }
 
 
-.menu-header {
+.navbar {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    justify-content: space-between;
-    list-style: none !important;
-    line-height: 80px;
+    justify-content: center;
+    align-items: center; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
     font-size: 16px;
-    width: 400px;
-    
+    width: 600px;
+}
+
+.navbar .menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .menu-item:nth-last-child(2),
+.navbar .menu-item:last-child {
+    margin-left: 50px;
 }
 
 /* Style du bouton Commander */
@@ -65,12 +66,20 @@ header {
     text-align: center;
     background-color: #DC9F96;
     color: white;
-    text-decoration: none;
 }
 
 #menu-item-764 a:hover {
     background-color: #C02E44;
 }
+
+#menu-item-765 a {
+    width: 236px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+
 
 footer {
     display: flex;
