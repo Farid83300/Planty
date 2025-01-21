@@ -33,63 +33,63 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 </head>
 
 <body <?php astra_schema_body(); ?> <?php body_class(); ?>>
-<?php astra_body_top(); ?>
-<?php wp_body_open(); ?>
+	<?php astra_body_top(); ?>
+	<?php wp_body_open(); ?>
 
 
-<a
-	class="skip-link screen-reader-text"
-	href="#content"
-	title="<?php echo esc_attr( astra_default_strings( 'string-header-skip-link', false ) ); ?>">
-		<?php echo esc_html( astra_default_strings( 'string-header-skip-link', false ) ); ?>
-</a>
+	<a
+		class="skip-link screen-reader-text"
+		href="#content"
+		title="<?php echo esc_attr( astra_default_strings( 'string-header-skip-link', false ) ); ?>">
+			<?php echo esc_html( astra_default_strings( 'string-header-skip-link', false ) ); ?>
+	</a>
 
-<div
-<?php
-	echo wp_kses_post(
-		astra_attr(
-			'site',
-			array(
-				'id'    => 'page',
-				'class' => 'hfeed site',
-			)
-		) 
-	);
-	?>
->
-
-
-<?php
-	astra_header_before();
-?>
-
-<header>
-	<div class="bloc-header">
-		<div class="logo">
-			<a href="http://planty/">
-				<img src="/wp-content/uploads/2025/01/Logo.png" alt="Logo">
-			</a>
-		</div> 
-		<nav>
-			<?php
-				if ( has_nav_menu( 'menu-header' ) ) {
-				wp_nav_menu(array(
-						'theme_location' => 'menu-header',
-						'menu_class'     => 'navbar',
+	<div
+		<?php
+			echo wp_kses_post(
+				astra_attr(
+					'site',
+					array(
+						'id'    => 'page',
+						'class' => 'hfeed site',
 					)
-				);
-			}
-			?>
-		</nav>
-	</div>
-</header>
+				) 
+			);
+		?>
+	>
 
-<?php
-astra_header_after();
 
-astra_content_before();
-?>
+	<?php
+		astra_header_before();
+	?>
 
-	<div id="content" class="site-content">
-		<div class="ast-container">
-		<?php astra_content_top(); ?>
+		<header>
+			<div class="bloc-header">
+				<div class="logo">
+					<a href="http://planty/">
+						<img src="/wp-content/uploads/2025/01/Logo.png" alt="Logo">
+					</a>
+				</div> 
+				<nav>
+					<?php
+						if ( has_nav_menu( 'menu-header' ) ) {
+						wp_nav_menu(array(
+								'theme_location' => 'menu-header',
+								'menu_class'     => 'navbar',
+							)
+						);
+					}
+					?>
+				</nav>
+			</div>
+			<button class="menu-toggle">☰ Menu</button>
+		</header>
+		<?php
+			astra_header_after();
+
+			astra_content_before();
+		?>
+
+		<div id="content" class="site-content">
+			<div class="ast-container">
+			<?php astra_content_top(); ?>

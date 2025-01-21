@@ -39,5 +39,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 	astra_body_bottom();    
 	wp_footer(); 
 ?>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navbar = document.querySelector(".navbar");
+
+    menuToggle.addEventListener("click", function() {
+        navbar.classList.toggle("active");
+    });
+});
+</script>
 </body>
 </html>

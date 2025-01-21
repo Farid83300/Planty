@@ -7,6 +7,7 @@ body {
     font-family: 'Syne', sans-serif;
 }
 
+/* Header */
 
 header {
     display: flex;
@@ -57,9 +58,8 @@ header {
     margin-left: 50px;
 }
 
-/* Style du bouton Commander */
+/* Style du bouton Commander de la Navbar */
 #menu-item-764 a {
-    display: inline-block;
     width: 236px;
     height: 80px;
     line-height: 80px;
@@ -77,10 +77,11 @@ header {
     height: 80px;
     line-height: 80px;
     text-align: center;
+    margin: 0px;
 }
 
 
-
+/* Footer */
 footer {
     display: flex;
     justify-content: center;
@@ -106,6 +107,15 @@ footer {
     color: #000000;
 }
 
+.form-button-commande {
+    display: block; 
+    margin: 0 auto;
+    width: 198px;
+    height: 55px;
+    border: none; 
+    font-size: 15px; 
+}
+
 
 .form-button-contact {
     display: block; 
@@ -116,5 +126,146 @@ footer {
     font-family: 'Syne', sans-serif; 
     font-size: 16px; 
  
+}
+
+/* Formulaire de précommande */
+
+.form-container {
+    display: flex;
+    gap: 100px; 
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.form-container h3 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.form-container::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    bottom: 40px;
+    width: 1px;
+    background-color: white;
+}
+
+.form-container label {
+    color: white;
+    font-size: 15px;
+}
+
+.form-left, .form-right {
+    flex: 1;
+    min-width: 250px; /* Largeur minimale pour éviter que ça se resserre trop sur mobile */
+}
+
+/* Pour s'assurer que le placeholder est bien centré */
+input::placeholder {
+    text-align: center;
+    line-height: 56px; 
+    color: #000000; 
+    
+}
+
+input[type="submit"] {
+    background-color: #E0B9B4;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 55px;
+    width: 198px;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    margin: 20px auto 0; 
+}
+
+
+input[type="submit"]:hover {
+    background-color: #C02E44;
+}
+
+
+/* Responsive */
+
+
+
+
+@media screen and (max-width: 767px) {
+    .form-container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .form-container::before {
+        display: none;
+    }
+
+    .form-left, .form-right {
+        width: 100%;
+    }
+
+    input[type="submit"] {
+        width: 50%;
+        height: 50px;
+    }    
+    
+    .menu-footer {
+        flex-direction: column;
+        text-align: center;
+    }    
+    .bloc-footer {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .menu-toggle {
+        display: block;
+        background-color: #DC9F96;
+        color: white;
+        border: none;
+        padding: 10px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .menu-toggle {
+        display: none !important;
+    }
+
+    .navbar {
+        display: flex !important;
+    }
 }
 
