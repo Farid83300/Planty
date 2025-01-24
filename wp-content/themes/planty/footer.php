@@ -20,18 +20,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</div><!-- #content -->
 
 	<footer>
-		<a href="#">
-			<nav class="bloc-footer">
-				<?php
-					if ( has_nav_menu( 'menu_footer' ) ) {
-						wp_nav_menu( array(
+		<nav class="bloc-footer">
+			<?php
+				if ( has_nav_menu( 'menu_footer' ) ) {
+					wp_nav_menu( array(
 							'theme_location' => 'menu_footer',
 							'menu_class'     => 'menu-footer',
-						));
-					}
-				?>
-			</nav>
-		</a>
+					));
+				}
+			?>
+		</nav>
 	</footer>
 
 	</div><!-- #page -->
